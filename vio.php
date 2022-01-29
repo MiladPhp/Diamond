@@ -1,8 +1,7 @@
 <?php
 /*
-#سورس#سورسکده#سورس کده ! 
-😉 @Sourrce_Kade @Sourrce_Kade 😕
-منبع بزن !!!!!!
+
+
 */
 flush();
 ob_start();
@@ -15,7 +14,7 @@ $time = file_get_contents("https://--------.cloudspeed.ir/api/time");
 $bot = " ";//ac_diamondbot
 $token = " ";// 5147475755:AAGBEkYmWzDEK6yMoucbVys5HEeAKJMabAo
 $admin = " ";//777997288
-define('API_KEY',$token);
+define('API_KEY',5147475755:AAGBEkYmWzDEK6yMoucbVys5HEeAKJMabAo);
 $telegram_ip_ranges = [['lower' => '149.154.160.0', 'upper' => '149.154.175.255'],['lower' => '91.108.4.0','upper' => '91.108.7.255']];
 $ip_dec = (float) sprintf('%u', ip2long($_SERVER['REMOTE_ADDR']));$ok=false;
 foreach ($telegram_ip_ranges as $telegram_ip_range) if (!$ok) {
